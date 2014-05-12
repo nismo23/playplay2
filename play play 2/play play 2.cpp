@@ -67,7 +67,11 @@ void print(int32_t outputScore, std::string outputName)
 	{
 		std::cout << "You're a C student." << std::endl;
 	}
-	 else if (outputScore < 60)
+	 else if (outputScore >= 40)
+	 {
+		 std::cout << "You're a D student." << std::endl;
+	 }
+	 else if (outputScore < 40)
 	{
 		std::cout << "You have failed. Pleaase see teacher" << std::endl;
 	}
