@@ -7,6 +7,8 @@
 #include <string>
 
 
+
+
 void userName(std::string&);
 
 void userScore(int32_t&);
@@ -22,7 +24,7 @@ void main()
 	userScore(score);
 	print(score, name);
 	system("pause");
-
+	system("TITLE grade calc");
 
 	
 	return;
