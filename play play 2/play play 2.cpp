@@ -77,4 +77,7 @@ void print(int32_t outputScore, std::string outputName)
 	{
 		std::cout << "You have failed. Pleaase see teacher" << std::endl;
 	}
+	
+	
+	std::cout <<"hello" << std::endl;
 }
